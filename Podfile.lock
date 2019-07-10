@@ -1,0 +1,16 @@
+PODS:
+  - ColorPickTip (0.4.0)
+
+DEPENDENCIES:
+  - ColorPickTip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ColorPickTip
+
+SPEC CHECKSUMS:
+  ColorPickTip: 1f0c9d39defb585fa8131ab79ef04bce147b543e
+
+PODFILE CHECKSUM: 81422860a6b471e99139a4d8ce85de9a990f2ba9
+
+COCOAPODS: 1.6.1

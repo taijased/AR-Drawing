@@ -9,11 +9,31 @@
 import UIKit
 import ARKit
 import ColorPickTip
+import Photos
 
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
-    
+    @IBAction func closeVC(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    @IBAction func saveSreenshot(_ sender: UIButton) {
+        
+        let renderedImage = sceneView.snapshot()
+
+        let shareText = "Try augmented reality in your phone!"
+        let activityViewController = UIActivityViewController(activityItems: [shareText, renderedImage], applicationActivities: nil)
+        activityViewController.popoverPresentationController?.sourceRect = CGRect(x: view.center.x, y: view.center.y, width: 0, height: 0)
+        activityViewController.popoverPresentationController?.sourceView = view
+        activityViewController.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection(rawValue: 0)
+        
+        activityViewController.completionWithItemsHandler = {(activityType: UIActivity.ActivityType?, completed:Bool, returnedItems:[Any]?, error: Error?) in if completed {
+                // do something on completion if you want
+            }
+        }
+        present(activityViewController, animated: true, completion: nil)
+    }
+
     private var brushColor: UIColor = UIColor.red
 
     @IBOutlet weak var draw: UIButton!
@@ -43,6 +63,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -62,7 +83,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 sphereNode.geometry?.firstMaterial?.diffuse.contents = self.brushColor
             }
             else {
-                let pointer = SCNNode(geometry: SCNSphere(radius: 0.01))
+                let pointer = SCNNode(geometry: SCNSphere(radius: 0.02))
                 pointer.name = "pointer"
                 pointer.position = currentPositionOfCamera
                 self.sceneView.scene.rootNode.enumerateChildNodes({ (node, _) in
@@ -74,10 +95,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 pointer.geometry?.firstMaterial?.diffuse.contents = self.brushColor
 
             }
-
         }
     }
-    
 }
 
 func +(left: SCNVector3, right: SCNVector3) -> SCNVector3 {

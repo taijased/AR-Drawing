@@ -13,6 +13,9 @@
 		0BB849A41F3862D500F6BDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB849A31F3862D500F6BDAE /* Assets.xcassets */; };
 		0BB849A71F3862D500F6BDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB849A51F3862D500F6BDAE /* LaunchScreen.storyboard */; };
 		65A11224BD2A848CFE7692C3 /* Pods_AR_Drawing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C00C1C0ADE72AF043327CC /* Pods_AR_Drawing.framework */; };
+		8A7861E222D886A80040C83F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7861E122D886A80040C83F /* InfoViewController.swift */; };
+		8A9A1ED922DD17E400D87E53 /* RulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A1ED822DD17E400D87E53 /* RulerViewController.swift */; };
+		8A9A1EDB22DD1B9C00D87E53 /* assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9A1EDA22DD1B9C00D87E53 /* assets.scnassets */; };
 		8AE0001D22D5FF010045E2ED /* TTNorms-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8AE0001B22D5FF010045E2ED /* TTNorms-Bold.otf */; };
 		8AE0001E22D5FF010045E2ED /* TTNorms-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8AE0001C22D5FF010045E2ED /* TTNorms-Medium.otf */; };
 		8AE0002222D5FF0D0045E2ED /* UIButton + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0001F22D5FF0C0045E2ED /* UIButton + Custom.swift */; };
@@ -30,6 +33,9 @@
 		0BB849A61F3862D500F6BDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BB849A81F3862D500F6BDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316F0F2BAEDF59AAF514061D /* Pods-AR Drawing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Drawing.debug.xcconfig"; path = "Target Support Files/Pods-AR Drawing/Pods-AR Drawing.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7861E122D886A80040C83F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8A9A1ED822DD17E400D87E53 /* RulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerViewController.swift; sourceTree = "<group>"; };
+		8A9A1EDA22DD1B9C00D87E53 /* assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = assets.scnassets; sourceTree = "<group>"; };
 		8AE0001B22D5FF010045E2ED /* TTNorms-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Bold.otf"; sourceTree = "<group>"; };
 		8AE0001C22D5FF010045E2ED /* TTNorms-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Medium.otf"; sourceTree = "<group>"; };
 		8AE0001F22D5FF0C0045E2ED /* UIButton + Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton + Custom.swift"; sourceTree = "<group>"; };
@@ -78,8 +84,11 @@
 				0BB849A01F3862D500F6BDAE /* Main.storyboard */,
 				0BB849A31F3862D500F6BDAE /* Assets.xcassets */,
 				0BB849A51F3862D500F6BDAE /* LaunchScreen.storyboard */,
+				8A9A1EDA22DD1B9C00D87E53 /* assets.scnassets */,
 				0BB849A81F3862D500F6BDAE /* Info.plist */,
 				8AE0001922D5FE7C0045E2ED /* Helpers */,
+				8A7861E122D886A80040C83F /* InfoViewController.swift */,
+				8A9A1ED822DD17E400D87E53 /* RulerViewController.swift */,
 			);
 			path = "AR Drawing";
 			sourceTree = "<group>";
@@ -183,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE0001D22D5FF010045E2ED /* TTNorms-Bold.otf in Resources */,
+				8A9A1EDB22DD1B9C00D87E53 /* assets.scnassets in Resources */,
 				0BB849A71F3862D500F6BDAE /* LaunchScreen.storyboard in Resources */,
 				0BB849A41F3862D500F6BDAE /* Assets.xcassets in Resources */,
 				8AE0001E22D5FF010045E2ED /* TTNorms-Medium.otf in Resources */,
@@ -224,12 +234,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AR Drawing/Pods-AR Drawing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AssetImportKit/AssetImportKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ColorPickTip/ColorPickTip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AssetImportKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorPickTip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +259,9 @@
 				0BB8499F1F3862D500F6BDAE /* ViewController.swift in Sources */,
 				8AE0002822D5FF130045E2ED /* Constraints.swift in Sources */,
 				8AE0002422D5FF0D0045E2ED /* UIColor + Custom.swift in Sources */,
+				8A7861E222D886A80040C83F /* InfoViewController.swift in Sources */,
 				0BB8499D1F3862D500F6BDAE /* AppDelegate.swift in Sources */,
+				8A9A1ED922DD17E400D87E53 /* RulerViewController.swift in Sources */,
 				8AE0002222D5FF0D0045E2ED /* UIButton + Custom.swift in Sources */,
 				8AE0002722D5FF130045E2ED /* Constants.swift in Sources */,
 			);

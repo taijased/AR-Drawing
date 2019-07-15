@@ -7,5 +7,6 @@ target 'AR Drawing' do
 
   # Pods for AR Drawing
 	pod 'ColorPickTip'
+	 pod 'AssetImportKit'
 
 end

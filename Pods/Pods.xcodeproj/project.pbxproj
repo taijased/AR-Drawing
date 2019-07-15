@@ -7,50 +7,165 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14829816340FD2B723CBDE48D8879695 /* ColorPickTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793C20A43645EC8CB8CF68600AB2212 /* ColorPickTipView.swift */; };
-		28AFEF76699CB860C07F118771003320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0C2EBEABEFA1EF303E64D90BC5549A89 /* SCNMaterial + LightningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697A3E9A64AB5E551E765A8913A2C90 /* SCNMaterial + LightningModel.swift */; };
+		1313D58D9AAFEF36EF5E019AF73D2462 /* AssetImportKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 748AA2C091C8F2FE965FEEFCA7AC4579 /* AssetImportKit-dummy.m */; };
+		14829816340FD2B723CBDE48D8879695 /* ColorPickTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D776ED59CD5F88474304A41CBA6159 /* ColorPickTipView.swift */; };
+		1ECB5AF5240B65363B0908B297087DAE /* aiMesh + getMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3CC0A88576446CF883FFC4D2EF31F /* aiMesh + getMaterial.swift */; };
+		27E03887CA4B2CD5F4D6A444143BAEAD /* SCNScene + AssetImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E368233DA3B0D973E6A36655BD84001 /* SCNScene + AssetImport.swift */; };
 		2FC3D83BD60D984829304DF1FBDA59D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		87B121920CCC42626D25A711CF42E17E /* Pods-AR Drawing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F084AB82CC5F627668D1552BB3185283 /* Pods-AR Drawing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6EAEDE6A3616F4A0D00ECBB04C6B688 /* ColorPickTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B3AD84908B86877DF3C74C336E207 /* ColorPickTip-dummy.m */; };
-		B09293469A4D592F885495961101A771 /* ColorPickTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563C95E76FF57E39CA44D38F2E7827FE /* ColorPickTipViewController.swift */; };
-		D992D6C37CA571D0010E36E83E357214 /* ColorPickCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101DA5C7F38F40F203F03833DBCC858 /* ColorPickCollectionCell.swift */; };
-		DB837BB4FB5AF1777861DEB0CA1BF104 /* ColorPickTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 326BF60E46086C94132BAD6A1D56C3C3 /* ColorPickTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC42471CECCF33113D74B70013578B6D /* Pods-AR Drawing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11E12ACBC94D2DA7F7F23147F8A24AF /* Pods-AR Drawing-dummy.m */; };
+		35B611D1302B865A1AC649A8D47DDC2A /* AssetImportKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6220606E26EFBF61344C281408853AE /* AssetImportKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D10DF6686FF756A3F3EC484FEE4D53E /* TextureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3304B3A43738CB04F56C00151DFD1BA /* TextureInfo.swift */; };
+		4F34D2ACE1E8ECDBB933B73A35DFE507 /* aiNode + makeColorGeometrySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5041F042FD3739E7665C2682F42CB3A3 /* aiNode + makeColorGeometrySource.swift */; };
+		52C65C241AAB7DE3017DDFBBA4FEE50E /* SCNMaterial + Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BE93571268BF9D6BAA8B8D37DFA /* SCNMaterial + Multiply.swift */; };
+		5A0F7F56FE76FC529E89C7944DDDDDFC /* SCNScene + getBoneNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D419D4B4F066CBDD80C86EA291AA10 /* SCNScene + getBoneNodes.swift */; };
+		5CC584DCE8F11283DFF9EDD403965062 /* aiNode + makeGeometryElementsForNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747AF09C7A3383A0E61EA70AFC10B90D /* aiNode + makeGeometryElementsForNode.swift */; };
+		5DD8082A8F45AA9B4EA52526E48DD1C3 /* AssetImporterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B56442E3F6E873718FCDEEB195D93 /* AssetImporterScene.swift */; };
+		5DFF593AE4714ED379AAFB0EEFEACF12 /* SCNMaterial + CullMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24099239A4DB0226AE65FD4EAD0478E /* SCNMaterial + CullMode.swift */; };
+		5E97110B493766DF41F517E932793855 /* aiNode + makeTextureGeometrySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30F1B3E7933F37D1EF63727797CE10F /* aiNode + makeTextureGeometrySource.swift */; };
+		63E7F91A5281A96F9D2EEDD9AF87D83B /* aiBone + getWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741ADA1B5F8F1F1E4929EADE2468658 /* aiBone + getWeights.swift */; };
+		672FE27426C0BA633CA59448CDC53E8D /* aiNode + getBoneNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = B621AA575C44AAEA049E401009651A59 /* aiNode + getBoneNames.swift */; };
+		67FD89006412C9F620C2782C63B9C417 /* aiNode + makeTangentGeometrySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7E5D4F7E99E06BD27F2E9A4A6A9E8 /* aiNode + makeTangentGeometrySource.swift */; };
+		7018F03F5BB9CFBB843AC2A0B75F767C /* aiNode + getMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A2E8344C785D5AD6C3A8A126FB1CA7 /* aiNode + getMaterials.swift */; };
+		720221F869FA7E734735470FDDEAB6D5 /* aiNode + getNumberOfBones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF11D2DCF7414A6E10BCFC8C9BC688 /* aiNode + getNumberOfBones.swift */; };
+		73D20A626973B454F24B65DFA776B5DB /* SCNMaterial + BlendMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E04F4160320F7C5AB84BDD4B7D7D8D /* SCNMaterial + BlendMode.swift */; };
+		7E254B7585ADA83520298DC1B593AE76 /* aiMaterial + Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46068030C258523E05F6EC9E6BE388B8 /* aiMaterial + Name.swift */; };
+		84FDB9921F0689FF57AA8D3FEF4BE9D1 /* Postprocessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D27E1A3A59B3A4FF6AF2E5651EED4 /* Postprocessing.swift */; };
+		864006B237942932135FD090AA3C7C28 /* Color Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CAAFD84AEB74D002D2C1AC73C07B63 /* Color Typealias.swift */; };
+		86718291D304C2442ED02D6BD114DD70 /* SCNMaterial + TextureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132B072022C6718F0272FC2974CAC1AA /* SCNMaterial + TextureInfo.swift */; };
+		877E2BFBF5AA92ADFBFD0A9BAE5AE012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		88C0DA16A4CAF89C7843945B19AA1F43 /* aiMesh + getBondes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560B6AA394EA06198AF26A6D5CCB3E5 /* aiMesh + getBondes.swift */; };
+		89A54A52E432D763BCCA31CC35ED7EDB /* SCNNode + makeSCNLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA164591CFCC6DE9070CB1701B1FA2 /* SCNNode + makeSCNLight.swift */; };
+		8A402AD409E0F030F52698F2908B1D6D /* SCNLight + aiLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D641EFA9B9EAD21EB2AAAB0D7D455D /* SCNLight + aiLight.swift */; };
+		8BEF465EE780E3326AEEFC43BFA48168 /* aiNode + makeNormalGeometrySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BCC27E9302A0AFC6C8189B248834BF /* aiNode + makeNormalGeometrySource.swift */; };
+		9169A7DB075FC34CE7EEFBEEC241918B /* AssetImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE435F47E229DB09C34D8998ABE0F0D /* AssetImporter.swift */; };
+		91E358CB1C417077CB6DEC13C7629C39 /* AssetImporterAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB714DB622DAD0B2A2FD37EE14C54A0 /* AssetImporterAnimation.swift */; };
+		A514C566B91588B34B4F2EA0D95C298C /* aiMesh + makeIndicesGeometryElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2CEEEE518A145C71ECF7A3494B3A1C /* aiMesh + makeIndicesGeometryElement.swift */; };
+		A6EAEDE6A3616F4A0D00ECBB04C6B688 /* ColorPickTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 275696C97A76F2712A1BDD4568B53F8F /* ColorPickTip-dummy.m */; };
+		A85ED2D5D533385BD712CC53642E3867 /* SCNNode + makeSCNCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C18F0C17E9AF5AF43D47BCD1E279 /* SCNNode + makeSCNCamera.swift */; };
+		AEDF5E868D3AA85D6BB8602E13B8464A /* aiNode + getChildNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65BB75B1218CD260084E15769B4E1A /* aiNode + getChildNodes.swift */; };
+		AF5769D0D0709B5FFF54E9B9F9986FBC /* URL + FileExists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BFFF631D5D26E16C1234893D2AA6B /* URL + FileExists.swift */; };
+		AFB778D3B2C8DD3344424949E74E624F /* AssimpImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C56C32247A751F85AAA3E255E6E0A5 /* AssimpImageCache.swift */; };
+		B09293469A4D592F885495961101A771 /* ColorPickTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5EB57869B56DC59F19CBE5B0A217F /* ColorPickTipViewController.swift */; };
+		B48E8676C1EB1CC3AFA0643804206389 /* aiMesh + getNumberOfFaceIndeces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFB40C20E5DC33C4014C919C2D0214 /* aiMesh + getNumberOfFaceIndeces.swift */; };
+		B5123E7BC6552CF0A1041E19F8E36259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B8DAF299FE1865418CFAE52B87E97A01 /* SCNNode + AssetImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CE5A5538AEDED11FACFC6C6922EAD /* SCNNode + AssetImport.swift */; };
+		B9E1D08B08BFB14D26EAC82532777150 /* aiNode + makeGeometrySources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E8A2B29BC02E63704DABDBFDF3DB50 /* aiNode + makeGeometrySources.swift */; };
+		BA21D8B657DC55FFB1F8BCB10249B030 /* aiNode + getMeshes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BDF4E10DA7B3CB980803E5CDEC014E /* aiNode + getMeshes.swift */; };
+		BCFD47612A8C5E471EE1886AF8C1A890 /* Pods-AR Drawing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11E12ACBC94D2DA7F7F23147F8A24AF /* Pods-AR Drawing-dummy.m */; };
+		C2DEBEF389D9E79BAE6420D74CEE5841 /* AssetImporterAnimSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469CC5CF046D71CCD579EB8AB2E258EE /* AssetImporterAnimSettings.swift */; };
+		C37A3AB0F44E17B7A4A21EE6DBAF157C /* aiScene + getMeshes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682DA1886CB4E95F03CF39EE42480008 /* aiScene + getMeshes.swift */; };
+		C4101A0393ECA66A02092EDF3680159E /* aiNode + getNumberOfVertices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81513039DC79C81D30DC984FDD08A1 /* aiNode + getNumberOfVertices.swift */; };
+		D79CDEC60195C406215D01514B67F026 /* aiScene + getNumberOfIndeces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47722AF5CEEE2DAD17615595267B702C /* aiScene + getNumberOfIndeces.swift */; };
+		D992D6C37CA571D0010E36E83E357214 /* ColorPickCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869DE7FD653301DCDAF3EC3FE7DA3D3 /* ColorPickCollectionCell.swift */; };
+		DAB1796FBE1F30D4FE534D434A86ADE0 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BC5A76887AB3787525B769CB5BE112 /* Material.swift */; };
+		DB837BB4FB5AF1777861DEB0CA1BF104 /* ColorPickTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CAE69E2E383057F69D717320810E21 /* ColorPickTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFCAD3038CC6358819303D7454216EA /* SCNMaterial + Shininess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C459656A489A53C357106DD265917 /* SCNMaterial + Shininess.swift */; };
+		DD44790AF2B7216EFBEC0D2B71FE6034 /* SCNNode + findDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B649BC1DBFA7C225B7B89D103BBE0 /* SCNNode + findDepth.swift */; };
+		DF3B3379B3C7151F59BC5699D087130C /* aiString + String Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D96880F063F0A3B59FABA0389AC4D07 /* aiString + String Value.swift */; };
+		E84F990407BEE4E9B5687AD633080293 /* aiNode + makeVertexGeometrySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7FA2A7343D28117D0E6E6C95C58D26 /* aiNode + makeVertexGeometrySource.swift */; };
+		EEE784BBA2A582788C0DB2A93AF7FA6D /* aiScene + getCameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C8095F1CB9FCBAE440C60AC9DA10A /* aiScene + getCameras.swift */; };
+		FACEFF968852160A90FE04FE0544E4C5 /* aiNode + findMaximumWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7F86FA6FD055564D2CB78E7FD96D3B /* aiNode + findMaximumWeights.swift */; };
+		FEB3780C9E92ED584D57D585A4DBBA79 /* aiNode + getBoneTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45A087F7892C754906A8B0B3E9786C /* aiNode + getBoneTransforms.swift */; };
+		FFB2E57699821464A92200BC8AE40365 /* Pods-AR Drawing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F084AB82CC5F627668D1552BB3185283 /* Pods-AR Drawing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F1A3FDB7921D4DBF7728ED7D38D4374 /* PBXContainerItemProxy */ = {
+		09D36E8144F9455DF5F89531821DA4D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3CA1EF777A3A33AB6AC361A0B63ED715;
 			remoteInfo = ColorPickTip;
 		};
+		89C45A630852BBDFDCC0D9A8838340E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E1D67040BDF0D4D836852D15C6C688;
+			remoteInfo = AssetImportKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		046B3AD84908B86877DF3C74C336E207 /* ColorPickTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorPickTip-dummy.m"; sourceTree = "<group>"; };
-		1148EF0FAAAE4BC395A1295773619D2C /* ColorPickTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorPickTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CFE1FDD6C9E65B16FC98F6C70EFB87C /* Pods_AR_Drawing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Drawing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E04F4160320F7C5AB84BDD4B7D7D8D /* SCNMaterial + BlendMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNMaterial + BlendMode.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNMaterial/SCNMaterial + BlendMode.swift"; sourceTree = "<group>"; };
+		06BCC27E9302A0AFC6C8189B248834BF /* aiNode + makeNormalGeometrySource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + makeNormalGeometrySource.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + SCNGeometrySource/aiNode + makeNormalGeometrySource.swift"; sourceTree = "<group>"; };
+		0BAA164591CFCC6DE9070CB1701B1FA2 /* SCNNode + makeSCNLight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode + makeSCNLight.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNNode/SCNNode + makeSCNLight.swift"; sourceTree = "<group>"; };
+		0DE435F47E229DB09C34D8998ABE0F0D /* AssetImporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetImporter.swift; path = AssetImportKit/AssetImportKit/AssetImporter.swift; sourceTree = "<group>"; };
+		132B072022C6718F0272FC2974CAC1AA /* SCNMaterial + TextureInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNMaterial + TextureInfo.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNMaterial/SCNMaterial + TextureInfo.swift"; sourceTree = "<group>"; };
+		143C459656A489A53C357106DD265917 /* SCNMaterial + Shininess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNMaterial + Shininess.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNMaterial/SCNMaterial + Shininess.swift"; sourceTree = "<group>"; };
+		169BE97C05388755CBBAC900F65C7CC1 /* AssetImportKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AssetImportKit-prefix.pch"; sourceTree = "<group>"; };
+		18F23D3AF60137EAD81AA93FFCA2D442 /* AssetImportKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AssetImportKit-Info.plist"; sourceTree = "<group>"; };
+		1DF3CC0A88576446CF883FFC4D2EF31F /* aiMesh + getMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiMesh + getMaterial.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiMesh/aiMesh + getMaterial.swift"; sourceTree = "<group>"; };
+		1E81513039DC79C81D30DC984FDD08A1 /* aiNode + getNumberOfVertices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + getNumberOfVertices.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + getNumberOfVertices.swift"; sourceTree = "<group>"; };
+		23D419D4B4F066CBDD80C86EA291AA10 /* SCNScene + getBoneNodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNScene + getBoneNodes.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNScene/SCNScene + getBoneNodes.swift"; sourceTree = "<group>"; };
+		2697A3E9A64AB5E551E765A8913A2C90 /* SCNMaterial + LightningModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNMaterial + LightningModel.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNMaterial/SCNMaterial + LightningModel.swift"; sourceTree = "<group>"; };
+		275696C97A76F2712A1BDD4568B53F8F /* ColorPickTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorPickTip-dummy.m"; sourceTree = "<group>"; };
+		2E7FA2A7343D28117D0E6E6C95C58D26 /* aiNode + makeVertexGeometrySource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + makeVertexGeometrySource.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + SCNGeometrySource/aiNode + makeVertexGeometrySource.swift"; sourceTree = "<group>"; };
 		326BBA7D2687EC1FA45EE8793A55531D /* Pods-AR Drawing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR Drawing-acknowledgements.plist"; sourceTree = "<group>"; };
-		326BF60E46086C94132BAD6A1D56C3C3 /* ColorPickTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-umbrella.h"; sourceTree = "<group>"; };
+		341BFFF631D5D26E16C1234893D2AA6B /* URL + FileExists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL + FileExists.swift"; path = "AssetImportKit/AssetImportKit/Extensions/Foundation/URL + FileExists.swift"; sourceTree = "<group>"; };
+		3477EC209B1890ACC93D83DC452168E1 /* ColorPickTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorPickTip.xcconfig; sourceTree = "<group>"; };
+		3D96880F063F0A3B59FABA0389AC4D07 /* aiString + String Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiString + String Value.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiString/aiString + String Value.swift"; sourceTree = "<group>"; };
+		425CE5A5538AEDED11FACFC6C6922EAD /* SCNNode + AssetImport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode + AssetImport.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNNode/SCNNode + AssetImport.swift"; sourceTree = "<group>"; };
+		46068030C258523E05F6EC9E6BE388B8 /* aiMaterial + Name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiMaterial + Name.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiMaterial/aiMaterial + Name.swift"; sourceTree = "<group>"; };
+		469CC5CF046D71CCD579EB8AB2E258EE /* AssetImporterAnimSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetImporterAnimSettings.swift; path = AssetImportKit/AssetImportKit/AssetImporterAnimSettings.swift; sourceTree = "<group>"; };
+		47722AF5CEEE2DAD17615595267B702C /* aiScene + getNumberOfIndeces.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiScene + getNumberOfIndeces.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiScene/aiScene + getNumberOfIndeces.swift"; sourceTree = "<group>"; };
+		4A7C8095F1CB9FCBAE440C60AC9DA10A /* aiScene + getCameras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiScene + getCameras.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiScene/aiScene + getCameras.swift"; sourceTree = "<group>"; };
+		4C2B649BC1DBFA7C225B7B89D103BBE0 /* SCNNode + findDepth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode + findDepth.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNNode/SCNNode + findDepth.swift"; sourceTree = "<group>"; };
+		4D45A087F7892C754906A8B0B3E9786C /* aiNode + getBoneTransforms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + getBoneTransforms.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + getBoneTransforms.swift"; sourceTree = "<group>"; };
+		4DDFB40C20E5DC33C4014C919C2D0214 /* aiMesh + getNumberOfFaceIndeces.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiMesh + getNumberOfFaceIndeces.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiMesh/aiMesh + getNumberOfFaceIndeces.swift"; sourceTree = "<group>"; };
+		5041F042FD3739E7665C2682F42CB3A3 /* aiNode + makeColorGeometrySource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + makeColorGeometrySource.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + SCNGeometrySource/aiNode + makeColorGeometrySource.swift"; sourceTree = "<group>"; };
 		52C7B786270776E275381A409A5EE559 /* Pods-AR Drawing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR Drawing-acknowledgements.markdown"; sourceTree = "<group>"; };
-		563C95E76FF57E39CA44D38F2E7827FE /* ColorPickTipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickTipViewController.swift; path = ColorPickTip/Classes/ColorPickTipViewController.swift; sourceTree = "<group>"; };
+		54AC4069E21A14707A43AB9A07888C0F /* ColorPickTip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ColorPickTip-Info.plist"; sourceTree = "<group>"; };
+		573B56442E3F6E873718FCDEEB195D93 /* AssetImporterScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetImporterScene.swift; path = AssetImportKit/AssetImportKit/AssetImporterScene.swift; sourceTree = "<group>"; };
+		58BC5A76887AB3787525B769CB5BE112 /* Material.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Material.swift; path = AssetImportKit/AssetImportKit/Material.swift; sourceTree = "<group>"; };
+		5B2CEEEE518A145C71ECF7A3494B3A1C /* aiMesh + makeIndicesGeometryElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiMesh + makeIndicesGeometryElement.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiMesh/aiMesh + SCNGeometryElement/aiMesh + makeIndicesGeometryElement.swift"; sourceTree = "<group>"; };
+		5E368233DA3B0D973E6A36655BD84001 /* SCNScene + AssetImport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNScene + AssetImport.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNScene/SCNScene + AssetImport.swift"; sourceTree = "<group>"; };
+		60A2E8344C785D5AD6C3A8A126FB1CA7 /* aiNode + getMaterials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + getMaterials.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + getMaterials.swift"; sourceTree = "<group>"; };
+		60E8A2B29BC02E63704DABDBFDF3DB50 /* aiNode + makeGeometrySources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + makeGeometrySources.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + SCNGeometrySource/aiNode + makeGeometrySources.swift"; sourceTree = "<group>"; };
+		682DA1886CB4E95F03CF39EE42480008 /* aiScene + getMeshes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiScene + getMeshes.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiScene/aiScene + getMeshes.swift"; sourceTree = "<group>"; };
 		6A0D5F96328582855E91C8CFA18E7B21 /* Pods-AR Drawing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR Drawing-frameworks.sh"; sourceTree = "<group>"; };
-		736B977CBDF5D19950A3A6517AA86DE3 /* ColorPickTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorPickTip.modulemap; sourceTree = "<group>"; };
+		6E7F86FA6FD055564D2CB78E7FD96D3B /* aiNode + findMaximumWeights.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + findMaximumWeights.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + findMaximumWeights.swift"; sourceTree = "<group>"; };
+		71CAAFD84AEB74D002D2C1AC73C07B63 /* Color Typealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color Typealias.swift"; path = "AssetImportKit/AssetImportKit/Typealiases/Color Typealias.swift"; sourceTree = "<group>"; };
+		747AF09C7A3383A0E61EA70AFC10B90D /* aiNode + makeGeometryElementsForNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + makeGeometryElementsForNode.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + GeometryElements/aiNode + makeGeometryElementsForNode.swift"; sourceTree = "<group>"; };
+		748AA2C091C8F2FE965FEEFCA7AC4579 /* AssetImportKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AssetImportKit-dummy.m"; sourceTree = "<group>"; };
 		74BB65EA07FDC5FB8A694D6648D908C5 /* Pods-AR Drawing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AR Drawing.modulemap"; sourceTree = "<group>"; };
-		7C7EB9A2D898F791F6206E64233D48DF /* ColorPickTip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ColorPickTip-Info.plist"; sourceTree = "<group>"; };
+		74BE4BE93571268BF9D6BAA8B8D37DFA /* SCNMaterial + Multiply.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNMaterial + Multiply.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNMaterial/SCNMaterial + Multiply.swift"; sourceTree = "<group>"; };
+		74D641EFA9B9EAD21EB2AAAB0D7D455D /* SCNLight + aiLight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNLight + aiLight.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNLight/SCNLight + aiLight.swift"; sourceTree = "<group>"; };
+		76BDF4E10DA7B3CB980803E5CDEC014E /* aiNode + getMeshes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + getMeshes.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + getMeshes.swift"; sourceTree = "<group>"; };
+		7ED3A380EC668D315D24D48748B78E34 /* AssetImportKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AssetImportKit.modulemap; sourceTree = "<group>"; };
+		82CF462649A71C7491B11729500EB69B /* ColorPickTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-prefix.pch"; sourceTree = "<group>"; };
+		84CF11D2DCF7414A6E10BCFC8C9BC688 /* aiNode + getNumberOfBones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + getNumberOfBones.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + getNumberOfBones.swift"; sourceTree = "<group>"; };
+		8DB714DB622DAD0B2A2FD37EE14C54A0 /* AssetImporterAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetImporterAnimation.swift; path = AssetImportKit/AssetImportKit/AssetImporterAnimation.swift; sourceTree = "<group>"; };
+		901E4A8C421C2C6A9E3830730A0C5938 /* Pods_AR_Drawing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Drawing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		916D69E56127DD9FF1CFFF5BFFDE2A7A /* Pods-AR Drawing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR Drawing.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A602425455B1D5A5BA79E43F777ABE84 /* ColorPickTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorPickTip.xcconfig; sourceTree = "<group>"; };
-		ABAA58F776408298271545ED2A77EF81 /* ColorPickTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-prefix.pch"; sourceTree = "<group>"; };
+		A2CAE69E2E383057F69D717320810E21 /* ColorPickTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorPickTip-umbrella.h"; sourceTree = "<group>"; };
+		A3304B3A43738CB04F56C00151DFD1BA /* TextureInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextureInfo.swift; path = AssetImportKit/AssetImportKit/TextureInfo.swift; sourceTree = "<group>"; };
+		A560B6AA394EA06198AF26A6D5CCB3E5 /* aiMesh + getBondes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiMesh + getBondes.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiMesh/aiMesh + getBondes.swift"; sourceTree = "<group>"; };
+		A5A7E5D4F7E99E06BD27F2E9A4A6A9E8 /* aiNode + makeTangentGeometrySource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + makeTangentGeometrySource.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + SCNGeometrySource/aiNode + makeTangentGeometrySource.swift"; sourceTree = "<group>"; };
 		B11E12ACBC94D2DA7F7F23147F8A24AF /* Pods-AR Drawing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR Drawing-dummy.m"; sourceTree = "<group>"; };
+		B1C56C32247A751F85AAA3E255E6E0A5 /* AssimpImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssimpImageCache.swift; path = AssetImportKit/AssetImportKit/AssimpImageCache.swift; sourceTree = "<group>"; };
+		B2AA4196467B6F32FEF90CC49FF7E2A1 /* libIrrXML-iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libIrrXML-iOS.a"; path = "AssetImportKit/AssetImportKit/Dependencies/Assimp/lib/iOS/libIrrXML-iOS.a"; sourceTree = "<group>"; };
+		B2D776ED59CD5F88474304A41CBA6159 /* ColorPickTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickTipView.swift; path = ColorPickTip/Classes/ColorPickTipView.swift; sourceTree = "<group>"; };
 		B450D9C85ED95AE86F22CF9E98ACD01B /* Pods-AR Drawing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR Drawing-Info.plist"; sourceTree = "<group>"; };
-		C101DA5C7F38F40F203F03833DBCC858 /* ColorPickCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickCollectionCell.swift; path = ColorPickTip/Classes/ColorPickCollectionCell.swift; sourceTree = "<group>"; };
+		B621AA575C44AAEA049E401009651A59 /* aiNode + getBoneNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + getBoneNames.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + getBoneNames.swift"; sourceTree = "<group>"; };
+		BB96C18F0C17E9AF5AF43D47BCD1E279 /* SCNNode + makeSCNCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode + makeSCNCamera.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNNode/SCNNode + makeSCNCamera.swift"; sourceTree = "<group>"; };
+		C24099239A4DB0226AE65FD4EAD0478E /* SCNMaterial + CullMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNMaterial + CullMode.swift"; path = "AssetImportKit/AssetImportKit/Extensions/SceneKit/SCNMaterial/SCNMaterial + CullMode.swift"; sourceTree = "<group>"; };
+		C4E5EB57869B56DC59F19CBE5B0A217F /* ColorPickTipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickTipViewController.swift; path = ColorPickTip/Classes/ColorPickTipViewController.swift; sourceTree = "<group>"; };
 		C7B0085D5898F271CD01E03AED006128 /* Pods-AR Drawing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AR Drawing.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E793C20A43645EC8CB8CF68600AB2212 /* ColorPickTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickTipView.swift; path = ColorPickTip/Classes/ColorPickTipView.swift; sourceTree = "<group>"; };
+		CE93FEC88DEFE6269E669184751DF0E4 /* ColorPickTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorPickTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11D27E1A3A59B3A4FF6AF2E5651EED4 /* Postprocessing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Postprocessing.swift; path = AssetImportKit/AssetImportKit/Postprocessing.swift; sourceTree = "<group>"; };
+		D27534C6D05A1A3068276A89C84A53D5 /* libassimp-iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libassimp-iOS.a"; path = "AssetImportKit/AssetImportKit/Dependencies/Assimp/lib/iOS/libassimp-iOS.a"; sourceTree = "<group>"; };
+		DAB0AF8109376D329EBCFA1816F1783F /* AssetImportKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssetImportKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2961691198F2939FA9B5B25416737A5 /* ColorPickTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorPickTip.modulemap; sourceTree = "<group>"; };
+		E30F1B3E7933F37D1EF63727797CE10F /* aiNode + makeTextureGeometrySource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + makeTextureGeometrySource.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + SCNGeometrySource/aiNode + makeTextureGeometrySource.swift"; sourceTree = "<group>"; };
+		E741ADA1B5F8F1F1E4929EADE2468658 /* aiBone + getWeights.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiBone + getWeights.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiBone/aiBone + getWeights.swift"; sourceTree = "<group>"; };
+		EA65BB75B1218CD260084E15769B4E1A /* aiNode + getChildNodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "aiNode + getChildNodes.swift"; path = "AssetImportKit/AssetImportKit/Extensions/assimp/aiNode/aiNode + getChildNodes.swift"; sourceTree = "<group>"; };
 		F084AB82CC5F627668D1552BB3185283 /* Pods-AR Drawing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR Drawing-umbrella.h"; sourceTree = "<group>"; };
+		F3C99778A8A0616A448868F64A38CC1D /* AssetImportKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AssetImportKit.xcconfig; sourceTree = "<group>"; };
+		F6220606E26EFBF61344C281408853AE /* AssetImportKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AssetImportKit-umbrella.h"; sourceTree = "<group>"; };
+		F869DE7FD653301DCDAF3EC3FE7DA3D3 /* ColorPickCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickCollectionCell.swift; path = ColorPickTip/Classes/ColorPickCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,46 +177,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8624B997FA182A31EF18A5FC4CBC000 /* Frameworks */ = {
+		4E8397DC1D2B9282A9FF11C6AF43C6D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AFEF76699CB860C07F118771003320 /* Foundation.framework in Frameworks */,
+				877E2BFBF5AA92ADFBFD0A9BAE5AE012 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F4C9FE2DA94CCC530C0DDF080282D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5123E7BC6552CF0A1041E19F8E36259 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CB9A303718DEF52FE114D39FB5F3303 /* Pods */ = {
+		2115E7A9D125B775247F04E79AF9502F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA141E4DEDB0355B4277E9EF94BDCDDF /* ColorPickTip */,
+				7ED3A380EC668D315D24D48748B78E34 /* AssetImportKit.modulemap */,
+				F3C99778A8A0616A448868F64A38CC1D /* AssetImportKit.xcconfig */,
+				748AA2C091C8F2FE965FEEFCA7AC4579 /* AssetImportKit-dummy.m */,
+				18F23D3AF60137EAD81AA93FFCA2D442 /* AssetImportKit-Info.plist */,
+				169BE97C05388755CBBAC900F65C7CC1 /* AssetImportKit-prefix.pch */,
+				F6220606E26EFBF61344C281408853AE /* AssetImportKit-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/AssetImportKit";
 			sourceTree = "<group>";
 		};
-		390E9FDEF4AAB35E74366DEDDDFF39FF /* Support Files */ = {
+		24339CFBF7DE2CF0765BB8A926451B72 /* AssetImportKit */ = {
 			isa = PBXGroup;
 			children = (
-				736B977CBDF5D19950A3A6517AA86DE3 /* ColorPickTip.modulemap */,
-				A602425455B1D5A5BA79E43F777ABE84 /* ColorPickTip.xcconfig */,
-				046B3AD84908B86877DF3C74C336E207 /* ColorPickTip-dummy.m */,
-				7C7EB9A2D898F791F6206E64233D48DF /* ColorPickTip-Info.plist */,
-				ABAA58F776408298271545ED2A77EF81 /* ColorPickTip-prefix.pch */,
-				326BF60E46086C94132BAD6A1D56C3C3 /* ColorPickTip-umbrella.h */,
+				E741ADA1B5F8F1F1E4929EADE2468658 /* aiBone + getWeights.swift */,
+				46068030C258523E05F6EC9E6BE388B8 /* aiMaterial + Name.swift */,
+				A560B6AA394EA06198AF26A6D5CCB3E5 /* aiMesh + getBondes.swift */,
+				1DF3CC0A88576446CF883FFC4D2EF31F /* aiMesh + getMaterial.swift */,
+				4DDFB40C20E5DC33C4014C919C2D0214 /* aiMesh + getNumberOfFaceIndeces.swift */,
+				5B2CEEEE518A145C71ECF7A3494B3A1C /* aiMesh + makeIndicesGeometryElement.swift */,
+				6E7F86FA6FD055564D2CB78E7FD96D3B /* aiNode + findMaximumWeights.swift */,
+				B621AA575C44AAEA049E401009651A59 /* aiNode + getBoneNames.swift */,
+				4D45A087F7892C754906A8B0B3E9786C /* aiNode + getBoneTransforms.swift */,
+				EA65BB75B1218CD260084E15769B4E1A /* aiNode + getChildNodes.swift */,
+				60A2E8344C785D5AD6C3A8A126FB1CA7 /* aiNode + getMaterials.swift */,
+				76BDF4E10DA7B3CB980803E5CDEC014E /* aiNode + getMeshes.swift */,
+				84CF11D2DCF7414A6E10BCFC8C9BC688 /* aiNode + getNumberOfBones.swift */,
+				1E81513039DC79C81D30DC984FDD08A1 /* aiNode + getNumberOfVertices.swift */,
+				5041F042FD3739E7665C2682F42CB3A3 /* aiNode + makeColorGeometrySource.swift */,
+				747AF09C7A3383A0E61EA70AFC10B90D /* aiNode + makeGeometryElementsForNode.swift */,
+				60E8A2B29BC02E63704DABDBFDF3DB50 /* aiNode + makeGeometrySources.swift */,
+				06BCC27E9302A0AFC6C8189B248834BF /* aiNode + makeNormalGeometrySource.swift */,
+				A5A7E5D4F7E99E06BD27F2E9A4A6A9E8 /* aiNode + makeTangentGeometrySource.swift */,
+				E30F1B3E7933F37D1EF63727797CE10F /* aiNode + makeTextureGeometrySource.swift */,
+				2E7FA2A7343D28117D0E6E6C95C58D26 /* aiNode + makeVertexGeometrySource.swift */,
+				4A7C8095F1CB9FCBAE440C60AC9DA10A /* aiScene + getCameras.swift */,
+				682DA1886CB4E95F03CF39EE42480008 /* aiScene + getMeshes.swift */,
+				47722AF5CEEE2DAD17615595267B702C /* aiScene + getNumberOfIndeces.swift */,
+				3D96880F063F0A3B59FABA0389AC4D07 /* aiString + String Value.swift */,
+				0DE435F47E229DB09C34D8998ABE0F0D /* AssetImporter.swift */,
+				8DB714DB622DAD0B2A2FD37EE14C54A0 /* AssetImporterAnimation.swift */,
+				469CC5CF046D71CCD579EB8AB2E258EE /* AssetImporterAnimSettings.swift */,
+				573B56442E3F6E873718FCDEEB195D93 /* AssetImporterScene.swift */,
+				B1C56C32247A751F85AAA3E255E6E0A5 /* AssimpImageCache.swift */,
+				71CAAFD84AEB74D002D2C1AC73C07B63 /* Color Typealias.swift */,
+				58BC5A76887AB3787525B769CB5BE112 /* Material.swift */,
+				D11D27E1A3A59B3A4FF6AF2E5651EED4 /* Postprocessing.swift */,
+				74D641EFA9B9EAD21EB2AAAB0D7D455D /* SCNLight + aiLight.swift */,
+				00E04F4160320F7C5AB84BDD4B7D7D8D /* SCNMaterial + BlendMode.swift */,
+				C24099239A4DB0226AE65FD4EAD0478E /* SCNMaterial + CullMode.swift */,
+				2697A3E9A64AB5E551E765A8913A2C90 /* SCNMaterial + LightningModel.swift */,
+				74BE4BE93571268BF9D6BAA8B8D37DFA /* SCNMaterial + Multiply.swift */,
+				143C459656A489A53C357106DD265917 /* SCNMaterial + Shininess.swift */,
+				132B072022C6718F0272FC2974CAC1AA /* SCNMaterial + TextureInfo.swift */,
+				425CE5A5538AEDED11FACFC6C6922EAD /* SCNNode + AssetImport.swift */,
+				4C2B649BC1DBFA7C225B7B89D103BBE0 /* SCNNode + findDepth.swift */,
+				BB96C18F0C17E9AF5AF43D47BCD1E279 /* SCNNode + makeSCNCamera.swift */,
+				0BAA164591CFCC6DE9070CB1701B1FA2 /* SCNNode + makeSCNLight.swift */,
+				5E368233DA3B0D973E6A36655BD84001 /* SCNScene + AssetImport.swift */,
+				23D419D4B4F066CBDD80C86EA291AA10 /* SCNScene + getBoneNodes.swift */,
+				A3304B3A43738CB04F56C00151DFD1BA /* TextureInfo.swift */,
+				341BFFF631D5D26E16C1234893D2AA6B /* URL + FileExists.swift */,
+				94EC8F9AC0D7E42F7F28076555F5E3D6 /* Frameworks */,
+				2115E7A9D125B775247F04E79AF9502F /* Support Files */,
+			);
+			path = AssetImportKit;
+			sourceTree = "<group>";
+		};
+		5DA4CFA9AD309EDF027F7894A8943B1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2961691198F2939FA9B5B25416737A5 /* ColorPickTip.modulemap */,
+				3477EC209B1890ACC93D83DC452168E1 /* ColorPickTip.xcconfig */,
+				275696C97A76F2712A1BDD4568B53F8F /* ColorPickTip-dummy.m */,
+				54AC4069E21A14707A43AB9A07888C0F /* ColorPickTip-Info.plist */,
+				82CF462649A71C7491B11729500EB69B /* ColorPickTip-prefix.pch */,
+				A2CAE69E2E383057F69D717320810E21 /* ColorPickTip-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ColorPickTip";
 			sourceTree = "<group>";
 		};
-		3B1CC141BCC7483B4D73B520667E0C9E /* Products */ = {
+		8DF369B824A69E3664452856FFA48D63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1148EF0FAAAE4BC395A1295773619D2C /* ColorPickTip.framework */,
-				1CFE1FDD6C9E65B16FC98F6C70EFB87C /* Pods_AR_Drawing.framework */,
+				DAB0AF8109376D329EBCFA1816F1783F /* AssetImportKit.framework */,
+				CE93FEC88DEFE6269E669184751DF0E4 /* ColorPickTip.framework */,
+				901E4A8C421C2C6A9E3830730A0C5938 /* Pods_AR_Drawing.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		94EC8F9AC0D7E42F7F28076555F5E3D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27534C6D05A1A3068276A89C84A53D5 /* libassimp-iOS.a */,
+				B2AA4196467B6F32FEF90CC49FF7E2A1 /* libIrrXML-iOS.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -110,6 +306,17 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		AC73FE3EAB10FE35C27123AA014274EC /* ColorPickTip */ = {
+			isa = PBXGroup;
+			children = (
+				F869DE7FD653301DCDAF3EC3FE7DA3D3 /* ColorPickCollectionCell.swift */,
+				B2D776ED59CD5F88474304A41CBA6159 /* ColorPickTipView.swift */,
+				C4E5EB57869B56DC59F19CBE5B0A217F /* ColorPickTipViewController.swift */,
+				5DA4CFA9AD309EDF027F7894A8943B1D /* Support Files */,
+			);
+			path = ColorPickTip;
 			sourceTree = "<group>";
 		};
 		B4D003A9229D0AB10A048FBC083B6D54 /* Pods-AR Drawing */ = {
@@ -142,8 +349,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0CB9A303718DEF52FE114D39FB5F3303 /* Pods */,
-				3B1CC141BCC7483B4D73B520667E0C9E /* Products */,
+				D7617246F5BBC1A62810C1B2D8BEF753 /* Pods */,
+				8DF369B824A69E3664452856FFA48D63 /* Products */,
 				C28EB7B85B516FA52C314BFD21D60B48 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -156,20 +363,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA141E4DEDB0355B4277E9EF94BDCDDF /* ColorPickTip */ = {
+		D7617246F5BBC1A62810C1B2D8BEF753 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C101DA5C7F38F40F203F03833DBCC858 /* ColorPickCollectionCell.swift */,
-				E793C20A43645EC8CB8CF68600AB2212 /* ColorPickTipView.swift */,
-				563C95E76FF57E39CA44D38F2E7827FE /* ColorPickTipViewController.swift */,
-				390E9FDEF4AAB35E74366DEDDDFF39FF /* Support Files */,
+				24339CFBF7DE2CF0765BB8A926451B72 /* AssetImportKit */,
+				AC73FE3EAB10FE35C27123AA014274EC /* ColorPickTip */,
 			);
-			path = ColorPickTip;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		70A17347450E415A7B75F0DF17788F72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB2E57699821464A92200BC8AE40365 /* Pods-AR Drawing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74D54057A096770770BBADD1876B18CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,34 +391,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0B83C8D8930DBE40378C031CDBB278F /* Headers */ = {
+		B75AF3A6C10AEDC8844E35A294AE6F4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B121920CCC42626D25A711CF42E17E /* Pods-AR Drawing-umbrella.h in Headers */,
+				35B611D1302B865A1AC649A8D47DDC2A /* AssetImportKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3911DD72BFF4193E17C5832B2C38070C /* Pods-AR Drawing */ = {
+		37E1D67040BDF0D4D836852D15C6C688 /* AssetImportKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65FA68DEB19116910BC5431208A1D7F3 /* Build configuration list for PBXNativeTarget "Pods-AR Drawing" */;
+			buildConfigurationList = 13BBF15FD3F203769B426930E790859B /* Build configuration list for PBXNativeTarget "AssetImportKit" */;
 			buildPhases = (
-				E0B83C8D8930DBE40378C031CDBB278F /* Headers */,
-				472C61CFD1449B85553EC7B5CEFB1BDA /* Sources */,
-				C8624B997FA182A31EF18A5FC4CBC000 /* Frameworks */,
-				7246B1469336323EFD4254CC2D49934B /* Resources */,
+				B75AF3A6C10AEDC8844E35A294AE6F4F /* Headers */,
+				B32F28EBA2B02ABEC6385D9BFE99D65F /* Sources */,
+				A2F4C9FE2DA94CCC530C0DDF080282D9 /* Frameworks */,
+				381601A67A5855BC8C7EE7CD622499FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F907AA04933C5F2A2F0C66F58F83A12B /* PBXTargetDependency */,
 			);
-			name = "Pods-AR Drawing";
-			productName = "Pods-AR Drawing";
-			productReference = 1CFE1FDD6C9E65B16FC98F6C70EFB87C /* Pods_AR_Drawing.framework */;
+			name = AssetImportKit;
+			productName = AssetImportKit;
+			productReference = DAB0AF8109376D329EBCFA1816F1783F /* AssetImportKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3CA1EF777A3A33AB6AC361A0B63ED715 /* ColorPickTip */ = {
@@ -223,7 +435,27 @@
 			);
 			name = ColorPickTip;
 			productName = ColorPickTip;
-			productReference = 1148EF0FAAAE4BC395A1295773619D2C /* ColorPickTip.framework */;
+			productReference = CE93FEC88DEFE6269E669184751DF0E4 /* ColorPickTip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D6188DD7CBCBF3ABA78DDB84A94FB90 /* Pods-AR Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C7FF38346D2DCD754B4CE05B407D04 /* Build configuration list for PBXNativeTarget "Pods-AR Drawing" */;
+			buildPhases = (
+				70A17347450E415A7B75F0DF17788F72 /* Headers */,
+				02E3F421476C379553C6DF20ED9469D4 /* Sources */,
+				4E8397DC1D2B9282A9FF11C6AF43C6D2 /* Frameworks */,
+				2533BD29EAFB7D2A1A174F5375466B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B05BB33708F1D079200041524AE56E /* PBXTargetDependency */,
+				0A49B884FE25B982A00CD8C511C269AE /* PBXTargetDependency */,
+			);
+			name = "Pods-AR Drawing";
+			productName = "Pods-AR Drawing";
+			productReference = 901E4A8C421C2C6A9E3830730A0C5938 /* Pods_AR_Drawing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -235,6 +467,9 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1020;
 				TargetAttributes = {
+					37E1D67040BDF0D4D836852D15C6C688 = {
+						LastSwiftMigration = 1020;
+					};
 					3CA1EF777A3A33AB6AC361A0B63ED715 = {
 						LastSwiftMigration = 1020;
 					};
@@ -249,12 +484,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3B1CC141BCC7483B4D73B520667E0C9E /* Products */;
+			productRefGroup = 8DF369B824A69E3664452856FFA48D63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				37E1D67040BDF0D4D836852D15C6C688 /* AssetImportKit */,
 				3CA1EF777A3A33AB6AC361A0B63ED715 /* ColorPickTip */,
-				3911DD72BFF4193E17C5832B2C38070C /* Pods-AR Drawing */,
+				7D6188DD7CBCBF3ABA78DDB84A94FB90 /* Pods-AR Drawing */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +503,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7246B1469336323EFD4254CC2D49934B /* Resources */ = {
+		2533BD29EAFB7D2A1A174F5375466B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381601A67A5855BC8C7EE7CD622499FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +520,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		02E3F421476C379553C6DF20ED9469D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFD47612A8C5E471EE1886AF8C1A890 /* Pods-AR Drawing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45C3D67966AD726A1766531CB75FB718 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,63 +539,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		472C61CFD1449B85553EC7B5CEFB1BDA /* Sources */ = {
+		B32F28EBA2B02ABEC6385D9BFE99D65F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC42471CECCF33113D74B70013578B6D /* Pods-AR Drawing-dummy.m in Sources */,
+				63E7F91A5281A96F9D2EEDD9AF87D83B /* aiBone + getWeights.swift in Sources */,
+				7E254B7585ADA83520298DC1B593AE76 /* aiMaterial + Name.swift in Sources */,
+				88C0DA16A4CAF89C7843945B19AA1F43 /* aiMesh + getBondes.swift in Sources */,
+				1ECB5AF5240B65363B0908B297087DAE /* aiMesh + getMaterial.swift in Sources */,
+				B48E8676C1EB1CC3AFA0643804206389 /* aiMesh + getNumberOfFaceIndeces.swift in Sources */,
+				A514C566B91588B34B4F2EA0D95C298C /* aiMesh + makeIndicesGeometryElement.swift in Sources */,
+				FACEFF968852160A90FE04FE0544E4C5 /* aiNode + findMaximumWeights.swift in Sources */,
+				672FE27426C0BA633CA59448CDC53E8D /* aiNode + getBoneNames.swift in Sources */,
+				FEB3780C9E92ED584D57D585A4DBBA79 /* aiNode + getBoneTransforms.swift in Sources */,
+				AEDF5E868D3AA85D6BB8602E13B8464A /* aiNode + getChildNodes.swift in Sources */,
+				7018F03F5BB9CFBB843AC2A0B75F767C /* aiNode + getMaterials.swift in Sources */,
+				BA21D8B657DC55FFB1F8BCB10249B030 /* aiNode + getMeshes.swift in Sources */,
+				720221F869FA7E734735470FDDEAB6D5 /* aiNode + getNumberOfBones.swift in Sources */,
+				C4101A0393ECA66A02092EDF3680159E /* aiNode + getNumberOfVertices.swift in Sources */,
+				4F34D2ACE1E8ECDBB933B73A35DFE507 /* aiNode + makeColorGeometrySource.swift in Sources */,
+				5CC584DCE8F11283DFF9EDD403965062 /* aiNode + makeGeometryElementsForNode.swift in Sources */,
+				B9E1D08B08BFB14D26EAC82532777150 /* aiNode + makeGeometrySources.swift in Sources */,
+				8BEF465EE780E3326AEEFC43BFA48168 /* aiNode + makeNormalGeometrySource.swift in Sources */,
+				67FD89006412C9F620C2782C63B9C417 /* aiNode + makeTangentGeometrySource.swift in Sources */,
+				5E97110B493766DF41F517E932793855 /* aiNode + makeTextureGeometrySource.swift in Sources */,
+				E84F990407BEE4E9B5687AD633080293 /* aiNode + makeVertexGeometrySource.swift in Sources */,
+				EEE784BBA2A582788C0DB2A93AF7FA6D /* aiScene + getCameras.swift in Sources */,
+				C37A3AB0F44E17B7A4A21EE6DBAF157C /* aiScene + getMeshes.swift in Sources */,
+				D79CDEC60195C406215D01514B67F026 /* aiScene + getNumberOfIndeces.swift in Sources */,
+				DF3B3379B3C7151F59BC5699D087130C /* aiString + String Value.swift in Sources */,
+				9169A7DB075FC34CE7EEFBEEC241918B /* AssetImporter.swift in Sources */,
+				91E358CB1C417077CB6DEC13C7629C39 /* AssetImporterAnimation.swift in Sources */,
+				C2DEBEF389D9E79BAE6420D74CEE5841 /* AssetImporterAnimSettings.swift in Sources */,
+				5DD8082A8F45AA9B4EA52526E48DD1C3 /* AssetImporterScene.swift in Sources */,
+				1313D58D9AAFEF36EF5E019AF73D2462 /* AssetImportKit-dummy.m in Sources */,
+				AFB778D3B2C8DD3344424949E74E624F /* AssimpImageCache.swift in Sources */,
+				864006B237942932135FD090AA3C7C28 /* Color Typealias.swift in Sources */,
+				DAB1796FBE1F30D4FE534D434A86ADE0 /* Material.swift in Sources */,
+				84FDB9921F0689FF57AA8D3FEF4BE9D1 /* Postprocessing.swift in Sources */,
+				8A402AD409E0F030F52698F2908B1D6D /* SCNLight + aiLight.swift in Sources */,
+				73D20A626973B454F24B65DFA776B5DB /* SCNMaterial + BlendMode.swift in Sources */,
+				5DFF593AE4714ED379AAFB0EEFEACF12 /* SCNMaterial + CullMode.swift in Sources */,
+				0C2EBEABEFA1EF303E64D90BC5549A89 /* SCNMaterial + LightningModel.swift in Sources */,
+				52C65C241AAB7DE3017DDFBBA4FEE50E /* SCNMaterial + Multiply.swift in Sources */,
+				DCFCAD3038CC6358819303D7454216EA /* SCNMaterial + Shininess.swift in Sources */,
+				86718291D304C2442ED02D6BD114DD70 /* SCNMaterial + TextureInfo.swift in Sources */,
+				B8DAF299FE1865418CFAE52B87E97A01 /* SCNNode + AssetImport.swift in Sources */,
+				DD44790AF2B7216EFBEC0D2B71FE6034 /* SCNNode + findDepth.swift in Sources */,
+				A85ED2D5D533385BD712CC53642E3867 /* SCNNode + makeSCNCamera.swift in Sources */,
+				89A54A52E432D763BCCA31CC35ED7EDB /* SCNNode + makeSCNLight.swift in Sources */,
+				27E03887CA4B2CD5F4D6A444143BAEAD /* SCNScene + AssetImport.swift in Sources */,
+				5A0F7F56FE76FC529E89C7944DDDDDFC /* SCNScene + getBoneNodes.swift in Sources */,
+				4D10DF6686FF756A3F3EC484FEE4D53E /* TextureInfo.swift in Sources */,
+				AF5769D0D0709B5FFF54E9B9F9986FBC /* URL + FileExists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F907AA04933C5F2A2F0C66F58F83A12B /* PBXTargetDependency */ = {
+		0A49B884FE25B982A00CD8C511C269AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ColorPickTip;
 			target = 3CA1EF777A3A33AB6AC361A0B63ED715 /* ColorPickTip */;
-			targetProxy = 1F1A3FDB7921D4DBF7728ED7D38D4374 /* PBXContainerItemProxy */;
+			targetProxy = 09D36E8144F9455DF5F89531821DA4D4 /* PBXContainerItemProxy */;
+		};
+		99B05BB33708F1D079200041524AE56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AssetImportKit;
+			target = 37E1D67040BDF0D4D836852D15C6C688 /* AssetImportKit */;
+			targetProxy = 89C45A630852BBDFDCC0D9A8838340E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0953B0685DF4117F763D15FA6DF78368 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B0085D5898F271CD01E03AED006128 /* Pods-AR Drawing.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AR Drawing/Pods-AR Drawing-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AR Drawing/Pods-AR Drawing.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		298D1BB1466C02EC532329B0D278CC46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A602425455B1D5A5BA79E43F777ABE84 /* ColorPickTip.xcconfig */;
+			baseConfigurationReference = 3477EC209B1890ACC93D83DC452168E1 /* ColorPickTip.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -374,7 +645,7 @@
 			};
 			name = Release;
 		};
-		3CD303D8875449B4BF737D12F74CF3D3 /* Release */ = {
+		313D2A0B978CDA0264581DBDF06FD91F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 916D69E56127DD9FF1CFFF5BFFDE2A7A /* Pods-AR Drawing.release.xcconfig */;
 			buildSettings = {
@@ -411,7 +682,7 @@
 		};
 		4BE3B755DBECBEFB60616BEC1BD44355 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A602425455B1D5A5BA79E43F777ABE84 /* ColorPickTip.xcconfig */;
+			baseConfigurationReference = 3477EC209B1890ACC93D83DC452168E1 /* ColorPickTip.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -565,9 +836,117 @@
 			};
 			name = Debug;
 		};
+		AB7C77FCE15D2E2B0F9D157C859A3F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C99778A8A0616A448868F64A38CC1D /* AssetImportKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AssetImportKit/AssetImportKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AssetImportKit/AssetImportKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AssetImportKit/AssetImportKit.modulemap";
+				PRODUCT_MODULE_NAME = AssetImportKit;
+				PRODUCT_NAME = AssetImportKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01F062A74D435D080EC7CDF27391FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B0085D5898F271CD01E03AED006128 /* Pods-AR Drawing.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AR Drawing/Pods-AR Drawing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AR Drawing/Pods-AR Drawing.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE5532F66ACD8581E7020E4A43C42AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C99778A8A0616A448868F64A38CC1D /* AssetImportKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AssetImportKit/AssetImportKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AssetImportKit/AssetImportKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AssetImportKit/AssetImportKit.modulemap";
+				PRODUCT_MODULE_NAME = AssetImportKit;
+				PRODUCT_NAME = AssetImportKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13BBF15FD3F203769B426930E790859B /* Build configuration list for PBXNativeTarget "AssetImportKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C77FCE15D2E2B0F9D157C859A3F44 /* Debug */,
+				EE5532F66ACD8581E7020E4A43C42AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		15D517128AE20A14E77C558544434FB8 /* Build configuration list for PBXNativeTarget "ColorPickTip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -586,11 +965,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65FA68DEB19116910BC5431208A1D7F3 /* Build configuration list for PBXNativeTarget "Pods-AR Drawing" */ = {
+		81C7FF38346D2DCD754B4CE05B407D04 /* Build configuration list for PBXNativeTarget "Pods-AR Drawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0953B0685DF4117F763D15FA6DF78368 /* Debug */,
-				3CD303D8875449B4BF737D12F74CF3D3 /* Release */,
+				B01F062A74D435D080EC7CDF27391FC3 /* Debug */,
+				313D2A0B978CDA0264581DBDF06FD91F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
